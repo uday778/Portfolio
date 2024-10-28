@@ -5,12 +5,13 @@ import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
 
+
 function Navbar() {
   return (
     <div>
-      <nav className=" flex items-center justify-between  h-20  ">
+      <nav className=" flex items-center justify-between  h-20 px-4 ">
         <div className="flex flex-shrink-0 justify-between items-center ">
-          <img src={Logo} alt="" className='w-40' />
+          <img src={Logo} alt="" className='w-40 mt-4 cursor-pointer' />
 
         </div>
         <div className='flex items-center justify-center  gap-4 text-2xl cursor-pointer z-10 no-underlinee'>

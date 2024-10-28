@@ -3,6 +3,7 @@
 import {HERO_CONTENT} from "../constants/index.js"
 import ProfilePic from "../assets/ProfilePic.jpg"
 import { motion } from "framer-motion"
+import ResumeButton from "./Resume.jsx";
 
 const container=(delay)=>({
     hidden:{x:-100,opacity:0},
@@ -42,6 +43,13 @@ function Hero() {
                     animate="visible"
                     className="my-2 max-w-xl py-6 font-light tracking-tight">{HERO_CONTENT}</motion.p>
                     </div>
+                    < motion.div
+                    variants={container(1)}
+                    initial="hidden"
+                    animate="visible"
+                    >
+                    <ResumeButton/>
+                    </motion.div>
                 </motion.div>
                 
                 <motion.div

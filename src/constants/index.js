@@ -18,6 +18,18 @@ export const EXPERIENCES = [
   
 ];
 
+
+export const EDUCATION = [
+  {
+    year: "oct 2021 - jun 2024",
+    role: "Bachelor of Science (B.Sc.)",
+    company: "Sathavahana University",
+    description: `I completed my graduation in 2024 with a B.Sc. in Life Sciences, specializing in Botany, Zoology, and Chemistry.`,
+    technologies: ["Botany", "Zoology","Chemistry"],
+  },
+  
+];
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
